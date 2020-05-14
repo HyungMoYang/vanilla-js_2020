@@ -48,13 +48,19 @@
     - argument
     - parameter
 
-## 2-1.1 - `` 백틱을 이용한 text 출력 ( 사용법 ) - 함수의 return 값 - Object 안에 함수 넣기
+## 2-1.1
 
-## 2-2 JS DOM Functions - DOM(Document Object Model) - getElementsById() - console.dir
+- `` 백틱을 이용한 text 출력 ( 사용법 ) - 함수의 return 값 - Object 안에 함수 넣기
 
+## 2-2 JS DOM Functions
+
+- DOM(Document Object Model) - getElementsById() - console.dir
 - querySelector() - JS를 통해서 HTML을 조종할 수 있다.
 
-## 2-4 Events and event handlers - javascript는 event에 반응하기 위해 만들어짐 ( 반응형 ) - tag의 선택으로 html코드에 반응성을 띄게 할 수 있다.
+## 2-4 Events and event handlers
+
+- javascript는 event에 반응하기 위해 만들어짐 ( 반응형 )
+- tag의 선택으로 html코드에 반응성을 띄게 할 수 있다.
 
 ## 2-5 조건문 - if / else / and / or
 
