@@ -53,13 +53,6 @@ function handleSubmit() {
   toDoInput.value = "";
 }
 
-/*
-// forEach() test
-function something(toDo) {
-  console.log(toDo.text);
-}
-*/
-
 // localStorage에 저장되어 있는 To-do List를 불러온다.
 function loadToDos() {
   const loadedToDos = localStorage.getItem(TODOS_LS);
