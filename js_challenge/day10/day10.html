@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Game</title>
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <h3 class="text_area">Generate a number between 0 and 150</h3>
+    <input
+      class="rangeValue"
+      type="range"
+      min="0"
+      max="300"
+      value="150"
+      list="tickmarks"
+      oninput="changeVal(this.value)"
+    />
+    <h4 style=>Guess the number:
+      <input class="userInput" type="text" />
+      <input type="button" value="Play!" onclick="onButton()"/> 
+    </h4>
+    <h4 class="result"></h4>
+    <h3 class="result2"></h4>
+
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="50"></option>
+      <option value="100"></option>
+      <option value="150"></option>
+      <option value="200"></option>
+      <option value="250"></option>
+      <option value="300"></option>
+    </datalist>
+
+    <script src="day10.js"></script>
+  </body>
+</html>
